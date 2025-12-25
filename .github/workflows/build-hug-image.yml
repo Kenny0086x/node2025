@@ -43,7 +43,7 @@ jobs:
           tags: |
             ghcr.io/kenny0086x/flaycat:latest
           labels: |
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.source=https://github.com/kenny0086x
             org.opencontainers.image.description=http server
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
